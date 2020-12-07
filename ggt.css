@@ -111,7 +111,8 @@ body{background:url(img/index_bg.png);background-repeat:repeat-y;background-posi
 .contact_inf{font-family:微軟正黑體,Arial,Helvetica,sans-serif;font-size:1.5em;margin-left:40px;margin-top:20px;width:900px;text-shadow:0 1px 3px #999}
 .contact_inf2{font-family:微軟正黑體,Arial,Helvetica,sans-serif;font-size:1.5em;margin-left:40px;width:900px;text-shadow:0 1px 3px #999}
 .contact_inf3{text-indent:120px;font-family:微軟正黑體,Arial,Helvetica,sans-serif;font-size:1.5em;margin-left:40px;width:1000px;text-shadow:0 1px 3px #999}
-#cssList{text-align:center;width:650px;height:30px;display:block;float:right}
+#cssList{text-align:center;width:650px;height:30px;display:flex;}
+#cssList > a{height:20px;}
 .item{background-color:#fff;display:inline-block;text-decoration:none;border-radius:6px;padding:8px 8px;margin:5px 10px;font-family:微軟正黑體,Arial,Helvetica,sans-serif;font-size:1.2em;-moz-transition:all .4s;-webkit-transition:all .4s;transition:all .4s;color:#000;-webkit-box-shadow:0 1px 3px #666;-moz-mozbox-shadow:0 1px 3px #666;box-shadow:0 1px 3px #666;behavior:url(PIE.htc)}
 .item:hover{background-color:#000;color:#fff}
 .A{text-align:center;margin-top:50px;margin-left:auto;margin-right:auto;width:700px;left:-100%;opacity:0;position:relative;-moz-transition:all .4s;-webkit-transition:all .4s;transition:all .4s;position:relative}
