@@ -111,7 +111,7 @@ body{background:url(img/index_bg.png);background-repeat:repeat-y;background-posi
 .contact_inf{font-family:微軟正黑體,Arial,Helvetica,sans-serif;font-size:1.5em;margin-left:40px;margin-top:20px;width:900px;text-shadow:0 1px 3px #999}
 .contact_inf2{font-family:微軟正黑體,Arial,Helvetica,sans-serif;font-size:1.5em;margin-left:40px;width:900px;text-shadow:0 1px 3px #999}
 .contact_inf3{text-indent:120px;font-family:微軟正黑體,Arial,Helvetica,sans-serif;font-size:1.5em;margin-left:40px;width:1000px;text-shadow:0 1px 3px #999}
-#cssList{text-align:center;width:650px;height:30px;display:flex;}
+#cssList{text-align:center;width:700px;height:30px;display:flex;}
 #cssList > a{height:20px;}
 .item{background-color:#fff;display:inline-block;text-decoration:none;border-radius:6px;padding:8px 8px;margin:5px 10px;font-family:微軟正黑體,Arial,Helvetica,sans-serif;font-size:1.2em;-moz-transition:all .4s;-webkit-transition:all .4s;transition:all .4s;color:#000;-webkit-box-shadow:0 1px 3px #666;-moz-mozbox-shadow:0 1px 3px #666;box-shadow:0 1px 3px #666;behavior:url(PIE.htc)}
 .item:hover{background-color:#000;color:#fff}
@@ -136,8 +136,8 @@ h2{text-shadow:0 1px 0 #999,0 2px 0 #888,0 3px 0 #777,0 4px 0 #666,0 8px 7px #00
 .photo_doctor>span{margin:20px auto}
 .member img{border:1px #999 groove;width:135px}
 .member{display:flex;flex-direction:column;left:0;opacity:1;margin:20px}
-.doctor_inf_a,.doctor_inf_b,.doctor_inf_c,.doctor_inf_d,.doctor_inf_e,.doctor_inf_f,.doctor_inf_g,.doctor_inf_h,.doctor_inf_i,.doctor_inf_j,.doctor_inf_k{display:block;z-index:5;margin:0 auto;width:900px;height:500px;left:-120%;opacity:0;-moz-transition:all .4s;-webkit-transition:all .4s;transition:all .4s;position:absolute}
-.doctor_inf_a2,.doctor_inf_b2,.doctor_inf_c2,.doctor_inf_d2,.doctor_inf_e2,.doctor_inf_f2,.doctor_inf_g2,.doctor_inf_h2,.doctor_inf_i2,.doctor_inf_j2,.doctor_inf_k2{left:0;opacity:1}
+.doctor_inf_a,.doctor_inf_b,.doctor_inf_c,.doctor_inf_d,.doctor_inf_e,.doctor_inf_f,.doctor_inf_g,.doctor_inf_h,.doctor_inf_i,.doctor_inf_j,.doctor_inf_k,.doctor_inf_l,.doctor_inf_m{display:block;z-index:5;margin:0 auto;width:900px;height:500px;left:-120%;opacity:0;-moz-transition:all .4s;-webkit-transition:all .4s;transition:all .4s;position:absolute}
+.doctor_inf_a2,.doctor_inf_b2,.doctor_inf_c2,.doctor_inf_d2,.doctor_inf_e2,.doctor_inf_f2,.doctor_inf_g2,.doctor_inf_h2,.doctor_inf_i2,.doctor_inf_j2,.doctor_inf_k2,.doctor_inf_l2,.doctor_inf_m2{left:0;opacity:1}
 .inf_left{width:180px;height:500px;float:left;margin-top:40px}
 .inf_right{width:700px;height:500px;float:right;margin-top:20px}
 .content_member{margin-top:20px;margin-left:40px;width:580px;height:500px;font-family:微軟正黑體,Arial,Helvetica,sans-serif;font-size:1.4em;text-shadow:0 1px 3px #666}
@@ -146,7 +146,22 @@ h2{text-shadow:0 1px 0 #999,0 2px 0 #888,0 3px 0 #777,0 4px 0 #666,0 8px 7px #00
 h3{font-family:微軟正黑體,Arial,Helvetica,sans-serif;color:#09f;font-size:2.5em;margin:20px 0 50px 0}
 .case:hover{background-color:#999;color:#fff}
 .case{text-align:center;display:block;color:#000;width:200px;margin:7px;padding:10px 0;-moz-transition:all .3s;-webkit-transition:all .3s;transition:all .3s;border:1px solid #ccc;font-family:微軟正黑體,Arial,Helvetica,sans-serif;font-size:1em;margin-left:25px}
-.dr{font-family:微軟正黑體,Arial,Helvetica,sans-serif;font-size:1.8em;margin-left:440px;position:absolute;color:#333;text-shadow:0 1px 3px #888}
+.dr{
+    font-family:微軟正黑體,Arial,Helvetica,sans-serif;
+    font-size:1.8em;
+    margin-left:440px;
+    position:absolute;
+    color:#333;
+    text-shadow:0 1px 3px #888
+}
+.drF{
+    font-family:微軟正黑體,Arial,Helvetica,sans-serif;
+    font-size:1.8em;
+    margin-left:440px;
+    position:absolute;
+    color:#333;
+    text-shadow:0 1px 3px #888
+}
 .title_page{font-family:微軟正黑體,Arial,Helvetica,sans-serif;font-size:1.9em;color:#f60;margin:20px 0 20px 0;text-shadow:0 1px 3px #888;font-weight:700}
 .content_page{text-indent:45px;font-family:微軟正黑體,Arial,Helvetica,sans-serif;font-size:1.4em;margin-top:10px;text-shadow:0 1px 3px #888}
 .content_page_rebuild11{text-indent:45px;font-family:微軟正黑體,Arial,Helvetica,sans-serif;font-size:1.4em;text-shadow:0 1px 3px #888}

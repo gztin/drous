@@ -73,6 +73,18 @@ $(function(){
 			clearTimeout(timer);
 		timer = setTimeout(resetAll, 30000);
 	});
+	$(".dr12").click(function(){
+		doctor12();
+		if (timer)
+			clearTimeout(timer);
+		timer = setTimeout(resetAll, 30000);
+	});
+	$(".dr13").click(function(){
+		doctor13();
+		if (timer)
+			clearTimeout(timer);
+		timer = setTimeout(resetAll, 30000);
+	});
 
 	$(".back_btn").click(function(){
 		resetAll();
@@ -126,6 +138,14 @@ $(function(){
 		$(".doctor_inf_k").addClass("doctor_inf_k2");
 		$(".member_pic").addClass("member_pic2");
 	}
+	function doctor12(){
+		$(".doctor_inf_l").addClass("doctor_inf_l2");
+		$(".member_pic").addClass("member_pic2");
+	}
+	function doctor13(){
+		$(".doctor_inf_m").addClass("doctor_inf_m2");
+		$(".member_pic").addClass("member_pic2");
+	}
 
 	function resetAll(){
 		$(".doctor_inf_a").removeClass("doctor_inf_a2");
@@ -139,6 +159,8 @@ $(function(){
 		$(".doctor_inf_i").removeClass("doctor_inf_i2");
 		$(".doctor_inf_j").removeClass("doctor_inf_j2");
 		$(".doctor_inf_k").removeClass("doctor_inf_k2");
+		$(".doctor_inf_l").removeClass("doctor_inf_l2");
+		$(".doctor_inf_m").removeClass("doctor_inf_m2");
 		$(".member_pic").removeClass("member_pic2");
 		
 	}
