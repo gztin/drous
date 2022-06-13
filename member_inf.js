@@ -85,6 +85,12 @@ $(function(){
 			clearTimeout(timer);
 		timer = setTimeout(resetAll, 30000);
 	});
+	$(".dr14").click(function(){
+		doctor13();
+		if (timer)
+			clearTimeout(timer);
+		timer = setTimeout(resetAll, 30000);
+	});
 
 	$(".back_btn").click(function(){
 		resetAll();
@@ -146,6 +152,10 @@ $(function(){
 		$(".doctor_inf_m").addClass("doctor_inf_m2");
 		$(".member_pic").addClass("member_pic2");
 	}
+	function doctor14(){
+		$(".doctor_inf_m").addClass("doctor_inf_n2");
+		$(".member_pic").addClass("member_pic2");
+	}
 
 	function resetAll(){
 		$(".doctor_inf_a").removeClass("doctor_inf_a2");
@@ -161,6 +171,7 @@ $(function(){
 		$(".doctor_inf_k").removeClass("doctor_inf_k2");
 		$(".doctor_inf_l").removeClass("doctor_inf_l2");
 		$(".doctor_inf_m").removeClass("doctor_inf_m2");
+		$(".doctor_inf_n").removeClass("doctor_inf_n2");
 		$(".member_pic").removeClass("member_pic2");
 		
 	}
