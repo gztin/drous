@@ -86,7 +86,7 @@ $(function(){
 		timer = setTimeout(resetAll, 30000);
 	});
 	$(".dr14").click(function(){
-		doctor13();
+		doctor14();
 		if (timer)
 			clearTimeout(timer);
 		timer = setTimeout(resetAll, 30000);
@@ -153,7 +153,7 @@ $(function(){
 		$(".member_pic").addClass("member_pic2");
 	}
 	function doctor14(){
-		$(".doctor_inf_m").addClass("doctor_inf_n2");
+		$(".doctor_inf_n").addClass("doctor_inf_n2");
 		$(".member_pic").addClass("member_pic2");
 	}
 
